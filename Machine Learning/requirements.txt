@@ -1,0 +1,13 @@
+-r requirements-core.txt
+torch==2.8.0
+scikit-image==0.26.0
+opencv-python-headless==5.1.0.95
+xgboost==3.4.1
+lightgbm==4.7.0
+catboost==1.2.10
+shap==0.54.1
+lime==0.2.0.1
+gymnasium[classic-control]==1.4.0
+nashpy==0.0.43
+jupyterlab>=4,<5
+ipywidgets>=8,<9
