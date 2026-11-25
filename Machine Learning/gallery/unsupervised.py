@@ -1,4 +1,10 @@
-"""Small datasets with known geometry and diagnostics for unsupervised fits."""
+"""Small datasets with known geometry and diagnostics for unsupervised fits.
+
+scikit-learn, clustering and evaluation
+https://scikit-learn.org/stable/modules/clustering.html
+Alpaydin and Kaynak, Optical Recognition of Handwritten Digits
+https://doi.org/10.24432/C50P49
+"""
 
 import matplotlib.pyplot as plt
 import numpy as np

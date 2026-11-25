@@ -1,4 +1,8 @@
-"""Payoff and equilibrium diagnostics for two-player games."""
+"""Payoff and equilibrium diagnostics for two-player games.
+
+Nashpy, best responses and equilibria
+https://nashpy.readthedocs.io/en/stable/text-book/index.html
+"""
 
 import matplotlib.pyplot as plt
 import numpy as np

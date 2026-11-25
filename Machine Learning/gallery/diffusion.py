@@ -1,4 +1,12 @@
-"""A small epsilon-prediction model with DDPM and deterministic DDIM sampling."""
+"""A small epsilon-prediction model with DDPM and deterministic DDIM sampling.
+
+Ho et al., DDPM
+https://arxiv.org/abs/2006.11239
+Song et al., DDIM
+https://arxiv.org/abs/2010.02502
+Nichol and Dhariwal, cosine noise schedule
+https://arxiv.org/abs/2102.09672
+"""
 
 import numpy as np
 import torch

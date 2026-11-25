@@ -1,4 +1,8 @@
-"""Original geometric scenes and a public handwritten-digit split."""
+"""Original geometric scenes and a public handwritten-digit split.
+
+Alpaydin and Kaynak, Optical Recognition of Handwritten Digits
+https://doi.org/10.24432/C50P49
+"""
 
 import matplotlib.pyplot as plt
 import numpy as np

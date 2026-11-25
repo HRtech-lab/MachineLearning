@@ -1,4 +1,8 @@
-"""Small CPU training loops used by the image and video examples."""
+"""Small CPU training loops used by the image and video examples.
+
+PyTorch, AdamW
+https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html
+"""
 
 import random
 import numpy as np

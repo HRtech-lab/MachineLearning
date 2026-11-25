@@ -1,4 +1,8 @@
-"""A small slippery grid with known dynamics, sampling and policy evaluation."""
+"""A small slippery grid with known dynamics, sampling and policy evaluation.
+
+Sutton and Barto, Reinforcement Learning: An Introduction
+https://mitpress.mit.edu/9780262039246/reinforcement-learning/
+"""
 
 import matplotlib.pyplot as plt
 import numpy as np

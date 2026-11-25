@@ -1,4 +1,10 @@
-"""On-policy trajectories and held-out evaluation for Gymnasium CartPole."""
+"""On-policy trajectories and held-out evaluation for Gymnasium CartPole.
+
+The CartPole benchmark
+https://gymnasium.farama.org/environments/classic_control/cart_pole/
+Schulman et al., generalised advantage estimation
+https://arxiv.org/abs/1506.02438
+"""
 
 import gymnasium as gym
 import matplotlib.pyplot as plt

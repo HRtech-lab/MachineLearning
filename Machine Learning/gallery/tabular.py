@@ -1,4 +1,10 @@
-"""Common splits and diagnostics for the supervised examples."""
+"""Common splits and diagnostics for the supervised examples.
+
+I-Cheng Yeh, Concrete Compressive Strength
+https://doi.org/10.24432/C5PK67
+Wolberg et al., Breast Cancer Wisconsin (Diagnostic)
+https://doi.org/10.24432/C5DW2B
+"""
 
 from pathlib import Path
 

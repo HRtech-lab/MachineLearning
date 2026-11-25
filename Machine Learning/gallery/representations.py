@@ -1,4 +1,10 @@
-"""Frozen-representation evaluation and small public JEPA building blocks."""
+"""Frozen-representation evaluation and small public JEPA building blocks.
+
+Assran et al., I-JEPA
+https://arxiv.org/abs/2301.08243
+Bardes et al., V-JEPA
+https://arxiv.org/abs/2404.08471
+"""
 
 import copy
 import matplotlib.pyplot as plt
