@@ -1,0 +1,21 @@
+name: MATLAB course examples
+on:
+  push:
+    paths:
+      - 'Programming Languages/MATLAB/**'
+      - '.github/workflows/matlab-examples.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-matlab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: matlab-actions/setup-matlab@f9e43010f1ae678f7cfa0542fe2a4f60f7d1ad8d
+        with:
+          release: R2025b
+      - uses: matlab-actions/run-command@37b454c384483087929a3d652be474ba585a9659
+        with:
+          command: addpath(fullfile(pwd,'Programming Languages','MATLAB')); verify_matlab_examples
