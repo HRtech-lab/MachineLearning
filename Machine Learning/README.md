@@ -19,7 +19,7 @@ Each of the 105 examples has a runnable Python script and a notebook with its ou
 | [Game theory](Game%20Theory/README.md) | 6 | Equilibrium solvers, learning in games, population dynamics and repeated play. |
 | [Explainable AI](Explainable%20AI/README.md) | 2 | Exact SHAP contributions and the local fidelity and repeatability of LIME. |
 
-The [Computer Vision](https://github.com/HRtech-lab/HRtech-lab/tree/main/Computer%20Vision) and [Representation Learning](https://github.com/HRtech-lab/HRtech-lab/tree/main/Representation%20Learning) courses have their own folders in the profile repository.
+Continue with the standalone [Computer Vision](https://github.com/HRtech-lab/Computer-Vision) or [Representation Learning](https://github.com/HRtech-lab/Representation-Learning) course.
 
 ## Run an example
 
