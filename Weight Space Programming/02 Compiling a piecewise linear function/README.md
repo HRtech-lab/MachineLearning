@@ -28,6 +28,6 @@ Insert one extra knot on a straight segment and predict the added weight.
 
 ## References
 
-[Unser, a representer theorem for deep neural networks (2019)](https://doi.org/10.1109/TNNLS.2018.2887733)
+[Unser, a representer theorem for deep neural networks (2019)](https://www.jmlr.org/papers/v20/18-418.html)
 
 [WeightCode, weight-space programming preprint (2026)](https://arxiv.org/abs/2611.25476)

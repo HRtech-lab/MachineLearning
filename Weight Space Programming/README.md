@@ -2,7 +2,7 @@
 
 A weight matrix can be written down from a specification. For example, subtract the inputs in both directions, rectify the differences, then add the results. The resulting two-unit network computes XOR on binary inputs and absolute difference over the whole plane. A truth-table check covers the first claim. The second follows from the algebra.
 
-This course starts with direct parameter construction, moves on to parameter generation and constrained edits, and ends with established methods for aligning or merging checkpoints. The latter methods are closely related tools for reasoning about parameter space. Each lecture includes runnable Python, an executed notebook, an exercise and a figure from the recorded run. [WeightCode preprint](https://arxiv.org/abs/2611.25476) · [Tracr](https://arxiv.org/abs/2301.05062)
+This course starts with direct parameter construction, moves on to parameter generation and constrained edits, and compares established methods for aligning or merging checkpoints. The final workshop opens a fitted checkpoint, installs a specified new response and measures its effect on independent inputs. The latter methods are closely related tools for reasoning about parameter space. Each lecture includes runnable Python, an executed notebook, an exercise and a figure from the recorded run. [WeightCode preprint](https://arxiv.org/abs/2611.25476) · [Tracr](https://arxiv.org/abs/2301.05062)
 
 ## From a function to its parameters
 
@@ -42,6 +42,7 @@ Task arithmetic and TIES operate on displacements from a common model. The arith
 | [10. TIES merging](10%20TIES%20merging/README.md) | Trace trimming, sign election and disjoint averaging through a small merge. |
 | [11. Model soups with held-out selection](11%20Model%20soups%20with%20held-out%20selection/README.md) | Average compatible checkpoints and compare uniform and greedy soups on unseen data. |
 | [12. Stochastic weight averaging](12%20Stochastic%20weight%20averaging/README.md) | Average late SGD checkpoints and measure train and test error at the averaged point. |
+| [13. Installing a new piecewise response](13%20Installing%20a%20new%20piecewise%20response/README.md) | Add a specified response to an existing fitted checkpoint by writing one hidden unit and its outgoing weight. |
 
 ## Running the course
 

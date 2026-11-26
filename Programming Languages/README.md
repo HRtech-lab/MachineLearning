@@ -18,6 +18,6 @@ Nine introductory courses, eight lectures each. Using the same small fixtures ma
 
 Every numbered folder contains the native source, a Python companion and an executed Jupyter notebook. The Python companion runs the native programme in a temporary directory, reads its actual output, checks its length and compares each value against an independent calculation. The plotted bars show the native result. Reference marks record the second calculation. In SQL, the runner executes the checked-in query through the SQLite engine included with Python.
 
-Install Python 3, NumPy, Matplotlib and Jupyter, then install the runtime for the language you want to use. Native scripts can also be run directly from each chapter using the command in the course index. The MATLAB course includes native .m files, with the recorded notebook outputs obtained in GNU Octave.
+Install Python 3, NumPy, Matplotlib and Jupyter, then install the runtime for the language you want to use. Native scripts can also be run directly from each chapter using the command in the course index. The MATLAB course includes native .m files. Its notebook outputs were recorded in GNU Octave 10.3, and all eight scripts passed a separate numerical check in [MATLAB R2025b](https://github.com/HRtech-lab/MachineLearning/actions/runs/45727420895).
 
 [Python dependencies](requirements.txt) · [Native runtime driver](course_runner.py) · [MIT licence](../LICENSE)
